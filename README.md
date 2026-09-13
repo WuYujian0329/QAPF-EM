@@ -36,11 +36,5 @@ Real-data fields:
 - `data`: Iris, Wine, or Seeds.
 - `method`: CEM, DAEM, SEM, SAEM, or QAPF-EM.
 
-## Recommended public-release steps
-
-1. Add automated unit tests for responsibility normalization, limiting cases, deletion/reordering, covariance regularization, and metric calculations.
-2. Add one command that regenerates the CSV files from fixed seeds.
-3. Compare regenerated values with `data/*.csv` within documented numerical tolerances.
-4. Add an open-source license chosen by the authors, then create a tagged GitHub release and archive it with Zenodo to obtain a permanent DOI.
 
 
